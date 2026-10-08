@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://saeed-talamkhani.github.io/sitemap.xml
+Sitemap: https://saeed-talamkhani.github.io/username.github.io//sitemap.xml
