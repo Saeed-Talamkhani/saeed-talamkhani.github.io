@@ -1,189 +1,443 @@
+# cv:
+#   name: Albert Einstein
+#   label: Scientist
+#   email: einstein@example.com
+#   location: Princeton, NJ
+#   image: ""
+#   summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+
+#   social_networks:
+#     - network: X
+#       username: AlbertEinstein
+#     - network: GitHub
+#       username: example
+#     - network: LinkedIn
+#       username: example
+
+#   address:
+#     street: 2712 Broadway St
+#     city: San Francisco
+#     region: California
+#     postalCode: CA 94115
+#     countryCode: US
+
+#   sections:
+#     Education:
+#       - institution: University of Zurich
+#         location: Zurich, Switzerland
+#         url: https://www.uzh.ch/
+#         area: Physics
+#         studyType: PhD
+#         start_date: 1900
+#         end_date: 1905
+#         score: ""
+#         courses: "Theory of Relativity"
+#         highlights:
+#           - Description 1.
+#           - Description 2.
+
+#       - institution: Eidgenössische Technische Hochschule
+#         location: Zurich, Switzerland
+#         area: Physics
+#         studyType: Federal teaching diploma
+#         start_date: 1896
+#         end_date: 1900
+#         highlights:
+#           - Description 1.
+#           - Description 2.
+
+#     Experience:
+#       - company: Institute for Advanced Study, Princeton University
+#         position: Professor of Theoretical Physics
+#         location: Princeton University, NJ
+#         start_date: 1933
+#         end_date: 1955
+#         summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+#         highlights:
+#           - Relativity
+#           - Description 2.
+
+#       - company: California Institute of Technology
+#         position: Visiting Professor
+#         location: Pasadena, California, US
+#         start_date: 1933
+#         end_date: 1933
+#         highlights:
+#           - Description 1.
+#           - Description 2.
+
+#       - company: Kaiser Wilhelm Institute for Physics
+#         position: Director
+#         location: Berlin, Germany
+#         start_date: 1917
+#         end_date: 1933
+
+#       - company: Karl-Ferdinand University
+#         position: Professor of Theoretical Physics
+#         location: Prague, Czechoslovakia
+#         start_date: 1911
+#         end_date: 1917
+
+#       - company: University of Zurich
+#         position: Associate Professor of Theoretical Physics
+#         location: Zurich, Switzerland
+#         start_date: 1909
+#         end_date: 1911
+
+#     Volunteer:
+#       - company: People's Climate March
+#         position: Lead Organizer
+#         location: Zurich, Switzerland
+#         start_date: 2014-04-01
+#         end_date: 2015-07-01
+#         summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+#         highlights:
+#           - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+#           - "Men of the year 2014 by Time magazine"
+
+#     Awards:
+#       - title: Nobel Prize in Physics
+#         authors:
+#           - "Royal Swedish Academy of Sciences"
+#         date: 1921-11-01
+#         awarder: Royal Swedish Academy of Sciences
+#         url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+#         summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+
+#       - title: Max Planck Medal
+#         authors:
+#           - "German Physical Society"
+#         date: 2029
+#         awarder: German Physical Society
+#         summary: Awarded for outstanding scientific achievement
+
+#     Publications:
+#       - title: Zur Elektrodynamik bewegter Körper
+#         authors:
+#           - Albert Einstein
+#         publisher: Annalen der Physik
+#         releaseDate: 1905-06-30
+#         url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+#         summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+
+#       - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+#         authors:
+#           - Albert Einstein
+#         publisher: Annalen der Physik
+#         releaseDate: 1905-03-18
+#         url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+#         summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+
+#       - title: Die Grundlage der allgemeinen Relativitätstheorie
+#         authors:
+#           - Albert Einstein
+#         publisher: Annalen der Physik
+#         releaseDate: 1916-03-20
+#         url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+#         summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+
+#     Skills:
+#       - name: Physics
+#         level: Master
+#         icon: fa-solid fa-hashtag
+#         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+#     Languages:
+#       - name: German
+#         summary: "Native speaker"
+
+#       - name: English
+#         summary: "Fluent"
+
+#     Interests:
+#       - name: Physics
+#         icon: fa-solid fa-tag
+#         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+#     Certificates:
+#       - name: Machine Learning
+#         date: 2018-01-01
+#         issuer: Stanford University
+#         icon: fa-solid fa-location-dot
+
+#       - name: Quantum Computing
+#         date: 2018-01-01
+#         issuer: Stanford University
+#         icon: fa-solid fa-tag
+
+#       - name: Quantum Information
+#         date: 2018-01-01
+#         issuer: Stanford University
+#         icon: fa-solid fa-envelope
+
+#     Projects:
+#       - name: Quantum Computing
+#         summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+#         highlights:
+#           - Quantum Teleportation
+#           - Quantum Cryptography
+#         start_date: 2018-01-01
+#         end_date: 2018-01-01
+
+#     References:
+#       - name: Professor John Doe
+#         icon: fa-solid fa-laptop
+#         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+#       - name: Professor Jane Smith
+#         icon: fa-solid fa-thumbtack
+#         reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Saeed Talamkhani
+  label: PhD Candidate · Computer Vision & Deep Learning for Robotic Inspection
+  email: stalamkh@stevens.edu
+  website: https://saeed-talamkhani.github.io
+  location: Hoboken, NJ
+  summary: >-
+    PhD candidate at Stevens Institute of Technology developing computer vision and deep learning methods
+    for robotic perception in visually degraded environments, with underwater infrastructure inspection as the
+    main application. Experienced in semantic segmentation, underwater image enhancement, few-shot learning, and
+    efficient model deployment through structured pruning, with first-author work in *Automation in Construction*
+    and ASCE i3CE, and a Runner-up Paper Award at IConIC 2026.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: saeedtalamkhani
+    - network: GitHub
+      username: Saeed-Talamkhani
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
+    city: Hoboken
+    region: NJ
     countryCode: US
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Stevens Institute of Technology
+        position: Research Assistant
+        location: Hoboken, NJ
+        start_date: "2023-09"
+        summary: Underwater vision and robotics for automated infrastructure inspection and maintenance
         highlights:
-          - Relativity
-          - Description 2.
+          - "Developed a PyTorch-based semantic segmentation method to localize bridge components in underwater inspection images, achieving an IoU of 0.88."
+          - "Proposed a domain-specific encoder that learns image representations from quality-specific feature maps to address underwater image degradation."
+          - "Built a PyTorch pipeline integrating image enhancement, classification, and semantic segmentation for underwater structure detection."
+          - "Developed a few-shot semantic segmentation method using cross-attention between query images and support-image regions of interest to detect seven common damage types on underwater bridge components."
+          - "Built ontology-driven reasoning and action-planning tools to support autonomous underwater bridge inspection and maintenance decisions."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Imam Khomeini International University
+        position: Research Assistant
+        location: Qazvin, Iran
+        start_date: "2021-03"
+        end_date: "2023-06"
+        summary: Machine learning for geotechnical engineering
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Engineered scikit-learn and TensorFlow pipelines to build predictive models of geotechnical engineering parameters."
+          - "Analyzed experimental data using statistical, correlation, and feature-importance methods."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    Education:
+      - institution: Stevens Institute of Technology
+        location: Hoboken, NJ
+        url: https://www.stevens.edu/
+        area: Civil Engineering
+        studyType: PhD
+        start_date: "2023-09"
+        end_date: "2027-05"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Dissertation: *Advanced underwater vision-based robotics for automated infrastructure inspection and maintenance*"
+          - "Expected completion: May 2027"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - institution: Imam Khomeini International University
+        location: Qazvin, Iran
+        area: Civil Engineering
+        studyType: MS
+        start_date: "2015-08"
+        end_date: "2018-02"
+        highlights:
+          - "Thesis: *Effect of Geotextile on the Undrained Shear Strength of Clayey Sand*"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - institution: University of Qom
+        location: Qom, Iran
+        area: Civil Engineering
+        studyType: BS
+        start_date: "2011-08"
+        end_date: "2015-05"
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    Research Interests:
+      - label: AI and computer vision
+        details: "Computer vision, deep learning, semantic segmentation, underwater image enhancement, few-shot learning, efficient deep models"
+      - label: Robotics
+        details: "Underwater enhanced perception, robotic systems, automated task planning, semantic modeling"
+      - label: Application domain
+        details: "Civil infrastructure systems, automated inspection and maintenance"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming languages
+        icon: fa-solid fa-code
+        keywords:
+          - Python
+          - MATLAB
+      - name: Libraries and frameworks
+        icon: fa-solid fa-layer-group
+        keywords:
+          - PyTorch
+          - TensorFlow
+          - OpenCV
+          - scikit-learn
+      - name: Competencies
+        icon: fa-solid fa-brain
+        keywords:
+          - Deep learning
+          - Semantic segmentation
+          - Image enhancement
+          - Few-shot learning
+          - Structured pruning
+          - Algorithms
+      - name: Knowledge engineering
+        icon: fa-solid fa-diagram-project
+        keywords:
+          - Ontology modeling (Protégé)
+      - name: BIM and construction software
+        icon: fa-solid fa-building
+        keywords:
+          - Revit
+          - Navisworks
+          - Solibri
+          - InfraWorks
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+    Publications:
+      - title: "Knowledge-guided Few-shot Learning Segmentation of Multi-class Damages for Supporting Underwater Bridge Components from Limited Field Inspection Images"
+        authors:
+          - Saeed Talamkhani
+          - Kaijian Liu
+        publisher: Automation in Construction
+        releaseDate: "2026"
+        summary: "**S. Talamkhani** and K. Liu. Journal article, to be submitted."
 
-      - name: English
-        summary: "Fluent"
+      - title: "Virtual and Augmented Reality in Underground Space: A Systematic Review of 173 Studies"
+        authors:
+          - J. Xu
+          - H. Yu
+          - Saeed Talamkhani
+          - Y. Ye
+          - A. Hedayat
+          - Kaijian Liu
+          - Y. Shi
+        publisher: Journal of Computing in Civil Engineering
+        releaseDate: "2026"
+        summary: "J. Xu, H. Yu, **S. Talamkhani**, Y. Ye, A. Hedayat, K. Liu, and Y. Shi. Journal article, to be submitted."
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "Structured Pruning-Based Efficiency Optimization of Deep Vision Models for Automated Infrastructure Inspection"
+        authors:
+          - Saeed Talamkhani
+          - Kaijian Liu
+        publisher: "Proceedings of the 2026 International Conference on Industrialized Construction (IConIC), Gainesville, FL"
+        releaseDate: "2026"
+        summary: "**S. Talamkhani** and K. Liu. Conference paper, in press. **Runner-up Paper Award.**"
+
+      - title: "Underwater vision-enhanced image segmentation for supporting automated inspection of underwater bridge components"
+        authors:
+          - Saeed Talamkhani
+          - Kaijian Liu
+        publisher: "Automation in Construction, 175, 106230"
+        releaseDate: "2025"
+        url: https://doi.org/10.1016/j.autcon.2025.106230
+        summary: "**S. Talamkhani** and K. Liu. Journal article."
+
+      - title: "An Ontology Approach to Context-Aware Robotics for Automated Underwater Bridge Maintenance"
+        authors:
+          - Saeed Talamkhani
+          - Yangming Shi
+          - Kaijian Liu
+        publisher: "Computing in Civil Engineering 2025 (ASCE i3CE), New Orleans, LA, pp. 679–688"
+        releaseDate: "2025"
+        url: https://doi.org/10.1061/9780784486443.074
+        summary: "**S. Talamkhani**, Y. Shi, and K. Liu. Conference paper."
+
+      - title: "Integrating Image Enhancement, Classification, and Segmentation for Supporting Automated Underwater Infrastructure Inspection and Maintenance"
+        authors:
+          - Saeed Talamkhani
+          - Kaijian Liu
+        publisher: "Computing in Civil Engineering 2024 (ASCE i3CE), Pittsburgh, PA, pp. 229–238"
+        releaseDate: "2024"
+        url: https://doi.org/10.1061/9780784486115.024
+        summary: "**S. Talamkhani** and K. Liu. Conference paper."
+
+      - title: "Machine Learning-Based Prediction of Unconfined Compressive Strength of Sands Treated by Microbially-Induced Calcite Precipitation (MICP): A Gradient Boosting Approach and Correlation Analysis"
+        authors:
+          - Saeed Talamkhani
+        publisher: "Advances in Civil Engineering, 2023(1), 3692090"
+        releaseDate: "2023"
+        url: https://doi.org/10.1155/2023/3692090
+        summary: "**S. Talamkhani**. Journal article."
+
+      - title: "Prediction of Static Liquefaction Susceptibility of Sands Containing Plastic Fines Using Machine Learning Techniques"
+        authors:
+          - Saeed Talamkhani
+          - S. A. Naeini
+          - A. Ardakani
+        publisher: "Geotechnical and Geological Engineering, 41, 3057–3074"
+        releaseDate: "2023"
+        url: https://doi.org/10.1007/s10706-023-02444-2
+        summary: "**S. Talamkhani**, S. A. Naeini, and A. Ardakani. Journal article."
+
+      - title: "The Undrained Shear Behavior of Reinforced Clayey Sand"
+        authors:
+          - Saeed Talamkhani
+          - S. A. Naeini
+        publisher: "Geotechnical and Geological Engineering, 39, 265–283"
+        releaseDate: "2021"
+        url: https://doi.org/10.1007/s10706-020-01490-4
+        summary: "**S. Talamkhani** and S. A. Naeini. Journal article."
+
+      - title: "Effect of Plastic Fines on Undrained Behavior of Clayey Sands"
+        authors:
+          - Saeed Talamkhani
+          - S. A. Naeini
+        publisher: "International Journal of Earth, Energy and Environmental Sciences, 11, 525–528"
+        releaseDate: "2018"
+        url: https://doi.org/10.5281/zenodo.1340402
+        summary: "**S. Talamkhani** and S. A. Naeini. Journal article."
+
+    Honors and Awards:
+      - title: Runner-up Paper Award
+        awarder: International Conference on Industrialized Construction (IConIC 2026)
+        date: "2026"
+        summary: "For the paper *Structured Pruning-Based Efficiency Optimization of Deep Vision Models for Automated Infrastructure Inspection*."
+
+      - title: Provost Doctoral Fellowship
+        awarder: Stevens Institute of Technology
+        date: "2023"
+
+    Teaching:
+      - bullet: "**Fall 2025 · CM 506: Computer Applications in the Construction Process**, Stevens Institute of Technology. Led seven hands-on sessions on BIM-based workflows (Revit for design development and coordination, Navisworks for clash detection, cost estimation, and scheduling, Solibri for compliance checking, InfraWorks for civil information modeling), led two case-study and final-project sessions, and held weekly office hours."
+      - bullet: "**Spring 2025 · CE 483: Geotechnical Engineering**, Stevens Institute of Technology. Assisted in ten laboratory sessions on geotechnical testing, graded lab reports and exams, and held weekly office hours."
+      - bullet: "**Fall 2024 · CE 365: Numerical Modeling in Civil and Environmental Engineering**, Stevens Institute of Technology. Taught two sessions on numerical differentiation and integration, graded weekly MATLAB assignments and exams, held weekly office hours, and built Canvas SpeedGrader rubrics that sped up grading and gave students point-by-point feedback."
+
+    Presentations:
+      - bullet: "**2025** · “Advanced Underwater Robotic System for Automated Underwater Infrastructure Inspection and Maintenance.” Poster, AI in Construction Workshop, Stevens Institute of Technology, Hoboken, NJ."
+      - bullet: "**2024** · “Advanced Underwater Vision for Automated Underwater Infrastructure Inspection and Maintenance.” Poster, ASCE International Conference on Computing in Civil Engineering (i3CE 2024), Pittsburgh, PA."
+
+    Academic Service:
+      - label: Journal reviewer
+        details: "Journal of Computing in Civil Engineering (ASCE); Environmental Science and Pollution Research (Springer); Bulletin of Engineering Geology and the Environment (Springer)"
+      - label: Conference reviewer
+        details: "ASCE International Conference on Computing in Civil Engineering (i3CE 2025, 2026); ASCE Construction Research Congress (CRC 2026)"
+
+    Memberships:
+      - bullet: "American Society of Civil Engineers (ASCE), since 2024"
+      - bullet: "ASCE Visualization, Information Modeling and Simulation (VIMS) Committee, since 2024"
+      - bullet: "ASCE Data Sensing and Analysis (DSA) Committee, since 2023"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Deep Learning Specialization (Courses 1–4), DeepLearning.AI on Coursera"
+        date: "2023-08"
+        icon: fa-solid fa-certificate
+      - name: "Python for Data Science and Machine Learning Bootcamp, Udemy"
+        date: "2022-02"
+        icon: fa-solid fa-certificate
+      - name: "Machine Learning, Stanford University on Coursera"
+        date: "2021-03"
+        icon: fa-solid fa-certificate
