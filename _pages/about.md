@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -38,5 +38,3 @@ My research addresses this along four lines:
 - **Robot autonomy:** ontologies that let underwater robots reason about maintenance tasks, structural damage, and environmental conditions.
 
 My earlier work applied machine learning to geotechnical engineering problems, such as predicting soil liquefaction and strength. I received an MS in civil engineering from Imam Khomeini International University and am a recipient of the Provost Doctoral Fellowship at Stevens.
-
-**I will complete my PhD in May 2027 and am seeking tenure-track faculty and industry R&D positions in computer vision and robotic perception.**
